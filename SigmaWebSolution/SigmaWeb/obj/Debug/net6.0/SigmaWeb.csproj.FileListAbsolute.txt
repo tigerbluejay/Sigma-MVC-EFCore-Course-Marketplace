@@ -568,3 +568,5 @@ C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC E
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb\obj\Debug\net6.0\SigmaWeb.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb\obj\Debug\net6.0\SigmaWeb.csproj.CopyComplete
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb\bin\Debug\net6.0\Sigma.DataAccess.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb\bin\Debug\net6.0\Sigma.DataAccess.pdb

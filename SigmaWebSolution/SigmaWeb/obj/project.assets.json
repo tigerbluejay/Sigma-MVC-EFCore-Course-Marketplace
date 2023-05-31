@@ -3729,6 +3729,22 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Sigma.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16"
+        },
+        "compile": {
+          "bin/placeholder/Sigma.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sigma.DataAccess.dll": {}
+        }
       }
     }
   },
@@ -10528,6 +10544,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Sigma.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Sigma.DataAccess/Sigma.DataAccess.csproj",
+      "msbuildProject": "../Sigma.DataAccess/Sigma.DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10538,7 +10559,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
+      "Sigma.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10567,7 +10589,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.DataAccess\\Sigma.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.DataAccess\\Sigma.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

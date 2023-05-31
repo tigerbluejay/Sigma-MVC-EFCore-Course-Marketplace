@@ -1,11 +1,10 @@
-//using Sigma.DataAccess;
 //using Sigma.DataAccess.Repository;
 //using Sigma.DataAccess.Repository.IRepository;
 //using Sigma.Utilities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-
+using Sigma.DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,9 +13,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 // ENABLE TO CONNECT TO THE DATABASE
-//builder.Services.AddDbContext<ApplicatoinDbContext>(options => options.UseSqlServer(
-//    builder.Configuration.GetConnectionString("DefaultConnection")
-//    ));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
+    builder.Configuration.GetConnectionString("DefaultConnection")
+    ));
 
 // ENABLE FOR STRIPE
 // builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));

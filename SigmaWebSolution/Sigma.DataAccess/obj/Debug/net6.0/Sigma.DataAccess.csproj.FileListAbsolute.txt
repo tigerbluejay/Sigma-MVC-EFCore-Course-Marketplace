@@ -1,0 +1,14 @@
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\bin\Debug\net6.0\Sigma.DataAccess.deps.json
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\bin\Debug\net6.0\Sigma.DataAccess.runtimeconfig.json
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\bin\Debug\net6.0\Sigma.DataAccess.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\bin\Debug\net6.0\Sigma.DataAccess.pdb
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.csproj.AssemblyReference.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.AssemblyInfoInputs.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.AssemblyInfo.cs
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\refint\Sigma.DataAccess.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.pdb
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\Sigma.DataAccess.genruntimeconfig.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.DataAccess\obj\Debug\net6.0\ref\Sigma.DataAccess.dll

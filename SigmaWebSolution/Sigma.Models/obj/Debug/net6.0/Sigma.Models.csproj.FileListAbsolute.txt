@@ -1,0 +1,12 @@
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\bin\Debug\net6.0\Sigma.Models.deps.json
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\bin\Debug\net6.0\Sigma.Models.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\bin\Debug\net6.0\Sigma.Models.pdb
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.csproj.AssemblyReference.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.AssemblyInfoInputs.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.AssemblyInfo.cs
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\refint\Sigma.Models.dll
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\Sigma.Models.pdb
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\Sigma.Models\obj\Debug\net6.0\ref\Sigma.Models.dll
