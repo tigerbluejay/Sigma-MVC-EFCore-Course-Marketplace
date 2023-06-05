@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\imageCSS.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\imageCSS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\imageHTML.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\imageHTML.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\imageJS2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\imageJS2.jpg"
+    },
+    {
       "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,10 +1,10 @@
-//using Sigma.DataAccess.Repository;
-//using Sigma.DataAccess.Repository.IRepository;
 //using Sigma.Utilities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Sigma.DataAccess.Data;
+using Sigma.DataAccess.Repository;
+using Sigma.DataAccess.Repository.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +25,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 //    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 // ENABLE FOR UNIT OF WORK
-//builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // ENABLE FOR EMAIL SENDER
 //builder.Services.AddSingleton<IEmailSender, EmailSender>();
@@ -69,19 +69,19 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// app.UseAuthentication();
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 app.MapRazorPages();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 // TO ENABLE AREAS - WHEN IMPLEMENTED
-// app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(
+   name: "default",
+   pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 
 

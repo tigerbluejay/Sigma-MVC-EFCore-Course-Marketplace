@@ -1,4 +1,4 @@
-﻿using Sigma.DataAccess.Repository.IRepository;
+﻿using Sigma.DataAccess.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Sigma.DataAccess.Data;
 using Sigma.DataAccess.Repository.Interfaces;

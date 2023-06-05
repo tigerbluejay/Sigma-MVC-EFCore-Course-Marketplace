@@ -1,6 +1,5 @@
-﻿using Sigma.DataAccess.Repository.IRepository;
+﻿using Sigma.DataAccess.Repository.Interfaces;
 using Sigma.DataAccess.Data;
-using Sigma.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,20 +15,20 @@ namespace Sigma.DataAccess.Repository
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
-            /*
+            
             Product = new ProductRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
             OrderHeader = new OrderHeaderRepository(_db);
-            */
+            
         }
 
-        /*
+        
         public IProductRepository Product { get; private set; }
         public IShoppingCartRepository ShoppingCart { get; private set; }
         public IApplicationUserRepository ApplicationUser { get; private set; }
         public IOrderHeaderRepository OrderHeader { get; private set; }
-        */
+        
 
         public void Save()
         {
