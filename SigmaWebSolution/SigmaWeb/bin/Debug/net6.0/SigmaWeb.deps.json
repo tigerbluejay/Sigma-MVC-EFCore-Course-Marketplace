@@ -42,7 +42,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.16",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
           "Sigma.DataAccess": "1.0.0",
-          "Sigma.Models": "1.0.0",
           "Sigma.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "6.0.0.0",

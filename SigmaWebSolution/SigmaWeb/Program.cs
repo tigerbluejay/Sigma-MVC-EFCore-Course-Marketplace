@@ -1,4 +1,4 @@
-//using Sigma.Utilities;
+using Sigma.Utilities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -17,18 +17,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
+// ENABLE FOR IDENTITY
+// the commented code here is an alternative to the active code below
+// builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
+//    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
 // ENABLE FOR STRIPE
 // builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
-
-// ENABLE FOR IDENTITY
-//builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
-//    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 // ENABLE FOR UNIT OF WORK
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // ENABLE FOR EMAIL SENDER
-//builder.Services.AddSingleton<IEmailSender, EmailSender>();
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 // ENABLE FOR FACEBOOK LOGIN - AND DEFINE VALUES
 //builder.Services.AddAuthentication().AddFacebook(options =>
@@ -37,13 +41,13 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //      options.AppSecret = "";
 //});
 
-// ENABLE TO USE COOKIES in LOGIN
-//builder.Services.ConfigureApplicationCookie(options =>
-//{
-//      options.LoginPath = $"/Identity/Account/Login";
-//      options.LogoutPath = $"/Identity/Account/Logout";
-//      options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
-//});
+//ENABLE TO USE COOKIES in LOGIN
+builder.Services.ConfigureApplicationCookie(options =>
+{
+      options.LoginPath = $"/Identity/Account/Login";
+      options.LogoutPath = $"/Identity/Account/Logout";
+      options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+});
 
 // ENABLE TO USE SESSIONS
 builder.Services.AddDistributedMemoryCache();
@@ -82,7 +86,5 @@ app.MapRazorPages();
 app.MapControllerRoute(
    name: "default",
    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
-
-
 
 app.Run();

@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sigma.DataAccess\Sigma.DataAccess.csproj" />
-    <ProjectReference Include="..\Sigma.Models\Sigma.Models.csproj" />
     <ProjectReference Include="..\Sigma.Utilities\Sigma.Utilities.csproj" />
   </ItemGroup>
 

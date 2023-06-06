@@ -11926,7 +11926,6 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
       "Sigma.DataAccess >= 1.0.0",
-      "Sigma.Models >= 1.0.0",
       "Sigma.Utilities >= 1.0.0"
     ]
   },
@@ -11959,9 +11958,6 @@
           "projectReferences": {
             "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.DataAccess\\Sigma.DataAccess.csproj": {
               "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.DataAccess\\Sigma.DataAccess.csproj"
-            },
-            "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.Models\\Sigma.Models.csproj": {
-              "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.Models\\Sigma.Models.csproj"
             },
             "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.Utilities\\Sigma.Utilities.csproj": {
               "projectPath": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\Sigma.Utilities\\Sigma.Utilities.csproj"
