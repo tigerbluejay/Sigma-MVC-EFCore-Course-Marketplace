@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Customer/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

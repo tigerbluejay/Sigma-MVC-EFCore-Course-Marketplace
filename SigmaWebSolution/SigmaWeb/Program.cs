@@ -18,12 +18,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     ));
 
 // ENABLE FOR IDENTITY
-// the commented code here is an alternative to the active code below
-// builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
-//    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
+   .AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 // ENABLE FOR STRIPE
 // builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
