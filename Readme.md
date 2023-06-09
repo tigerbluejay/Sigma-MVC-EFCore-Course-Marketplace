@@ -46,7 +46,7 @@ Finally I worked on the Cart Controller and its methods as well as the Index and
 
 This stage will see progress during the upcoming week. It will focus on the product controller in the admin area.
 
-### STAGE FOUR - SECONDARY DEVELOPMENT PHASE 
+### STAGE FOUR - WRAP UP - UNIT TESTING AND EF CORE FEATURES 
 
 The final stage will explore Unit Testing (adding Unit Testing Projects) and exploring EF Enhacements to the project.
 
