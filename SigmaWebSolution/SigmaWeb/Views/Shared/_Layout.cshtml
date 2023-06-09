@@ -51,7 +51,8 @@
 
 						<li class="nav-item">
 							<a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
-							</a>
+							@await Component.InvokeAsync("ShoppingCart")
+                            </a>
 						</li>
 						
 					</ul>
