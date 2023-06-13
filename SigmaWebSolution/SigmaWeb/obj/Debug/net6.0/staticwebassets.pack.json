@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\images\\products\\imageJS2.jpg"
     },
     {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
+    },
+    {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
       "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

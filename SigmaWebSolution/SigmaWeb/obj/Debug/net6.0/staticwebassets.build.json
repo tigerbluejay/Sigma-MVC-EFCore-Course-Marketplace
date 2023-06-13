@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hvPptg3E3KhdlI8kfotJe4rGQN+gx/UuEaeZtx+HFUA=",
+  "Hash": "w1RYUyspGm1miOq5pnhtw/5zZHDfxjWWngwKeqt+I7o=",
   "Source": "SigmaWeb",
   "BasePath": "_content/SigmaWeb",
   "Mode": "Default",
@@ -1154,6 +1154,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\imageJS2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\order.js",
+      "SourceId": "SigmaWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\",
+      "BasePath": "_content/SigmaWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
+    },
+    {
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\product.js",
+      "SourceId": "SigmaWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\",
+      "BasePath": "_content/SigmaWeb",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\js\\site.js",

@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Admin/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Admin/Views/Product/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/josem/source/Large Projects/Sigma MVC EF Course Marketplace/Sigma MVC EF Core Course Marketplace/SigmaWebSolution/SigmaWeb/Areas/Customer/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
