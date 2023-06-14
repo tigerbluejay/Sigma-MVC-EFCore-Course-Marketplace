@@ -44,7 +44,14 @@ Finally I worked on the Cart Controller and its methods as well as the Index and
 
 ### STAGE THREE - SECONDARY DEVELOPMENT PHASE
 
-This stage will see progress during the upcoming week. It will focus on the product controller in the admin area.
+This stage focuses on the product area of the Admin Controller.
+First I added a dropdown during registration so users chould choose whether they would be regular users or admins.
+This naturally is not so in a real world application, but to display the full features of the app and access all areas users should be at time customers, at time admins.
+The Admin Area has a dropdown where they can register new users and where they can add, edit and remove courses (products) available to customers.
+The Product Contoller (courses) handles product CRUD operations and display has been implemented with the use of DataTables and json managed through js file products (under wwwroot)111111
+Create New Course (product) and Edit Existing Course are handled by the Upsert (GET and POST) methods/actions. The delete method deletes the courses that are offered. GetAll() is a method that uses API Calls to Datatables to populate the courses.
+In addition, there's an Order Controller that has an index view associated with it. Just the view is visible there is no implementation because Cart Controller in the Customer Area doesn't process (save to db or register with Stripe or other third party service) the order, so there's nothing to work with here. 
+
 
 ### STAGE FOUR - WRAP UP - UNIT TESTING AND EF CORE FEATURES 
 
