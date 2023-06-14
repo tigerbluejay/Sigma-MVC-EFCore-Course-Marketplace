@@ -10,9 +10,9 @@ function loadDataTable() {
             "url": "/Admin/Product/GetAll"
         },
         "columns": [
-            { "data": "title", "width": "30%" },
-            { "data": "price", "width": "30%" },
-            { "data": "author", "width": "30%" },
+            { "data": "title", "width": "25%" },
+            { "data": "price", "width": "25%" },
+            { "data": "author", "width": "25%" },
             {
                 "data": "id",
                 "render": function (data) {
@@ -25,7 +25,7 @@ function loadDataTable() {
 						</div>
                         `
                 },
-                "width": "15%"
+                "width": "25%"
             }
         ]
     });

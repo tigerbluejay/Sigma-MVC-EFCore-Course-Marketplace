@@ -29,7 +29,6 @@ namespace Sigma.DataAccess.Repository
         public IApplicationUserRepository ApplicationUser { get; private set; }
         public IOrderHeaderRepository OrderHeader { get; private set; }
         
-
         public void Save()
         {
             _db.SaveChanges();

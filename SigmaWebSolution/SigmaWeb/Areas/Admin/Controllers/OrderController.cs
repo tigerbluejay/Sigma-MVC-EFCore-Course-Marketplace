@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.JSInterop;
 using System.ComponentModel;
 using System.Security.Claims;
+using MailKit.Search;
 
 namespace SigmaWeb.Areas.Admin.Controllers
 {
@@ -15,7 +16,6 @@ namespace SigmaWeb.Areas.Admin.Controllers
 	public class OrderController : Controller
 	{
 		private readonly IUnitOfWork _unitOfWork;
-		
 		public OrderController(IUnitOfWork unitOfWork)
 		{
 			_unitOfWork = unitOfWork;
