@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sigma.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork, IDisposable
     {
         private ApplicationDbContext _db;
 
@@ -33,5 +33,18 @@ namespace Sigma.DataAccess.Repository
         {
             _db.SaveChanges();
         }
-    }
+		public void Dispose()
+		{
+			Dispose(true);
+			GC.SuppressFinalize(this);
+		}
+
+	    protected virtual void Dispose(bool disposing)
+		{
+			if (disposing)
+			{
+				_db.Dispose();
+			}
+		}
+	}
 }

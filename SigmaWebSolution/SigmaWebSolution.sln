@@ -5,11 +5,13 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigmaWeb", "SigmaWeb\SigmaWeb.csproj", "{7C66B0CA-2187-4C2D-98FC-A2F0B0A84732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.DataAccess", "Sigma.DataAccess\Sigma.DataAccess.csproj", "{48EA9072-BF6D-41D2-89B4-8AF9B5E7E5EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.DataAccess", "Sigma.DataAccess\Sigma.DataAccess.csproj", "{48EA9072-BF6D-41D2-89B4-8AF9B5E7E5EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.Models", "Sigma.Models\Sigma.Models.csproj", "{6AE1CBE9-F50A-44B3-8F16-DA3CFDA11186}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.Models", "Sigma.Models\Sigma.Models.csproj", "{6AE1CBE9-F50A-44B3-8F16-DA3CFDA11186}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.Utilities", "Sigma.Utilities\Sigma.Utilities.csproj", "{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.Utilities", "Sigma.Utilities\Sigma.Utilities.csproj", "{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.DataAccess.Tests", "Sigma.DataAccess.Tests\Sigma.DataAccess.Tests.csproj", "{714F8359-6669-4F89-AD94-EC2773C31031}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714F8359-6669-4F89-AD94-EC2773C31031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714F8359-6669-4F89-AD94-EC2773C31031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714F8359-6669-4F89-AD94-EC2773C31031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714F8359-6669-4F89-AD94-EC2773C31031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
