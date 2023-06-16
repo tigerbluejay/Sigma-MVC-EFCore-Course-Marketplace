@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.Models", "Sigma.Model
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.Utilities", "Sigma.Utilities\Sigma.Utilities.csproj", "{82BB68B0-3EE4-4AE5-82A2-FC96A3225791}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.DataAccess.Tests", "Sigma.DataAccess.Tests\Sigma.DataAccess.Tests.csproj", "{714F8359-6669-4F89-AD94-EC2773C31031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sigma.DataAccess.Tests", "Sigma.DataAccess.Tests\Sigma.DataAccess.Tests.csproj", "{714F8359-6669-4F89-AD94-EC2773C31031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaWeb.Tests", "SigmaWeb.Tests\SigmaWeb.Tests.csproj", "{53F42876-A707-44EB-B720-3D0587E558D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{714F8359-6669-4F89-AD94-EC2773C31031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714F8359-6669-4F89-AD94-EC2773C31031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714F8359-6669-4F89-AD94-EC2773C31031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F42876-A707-44EB-B720-3D0587E558D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F42876-A707-44EB-B720-3D0587E558D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F42876-A707-44EB-B720-3D0587E558D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F42876-A707-44EB-B720-3D0587E558D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
