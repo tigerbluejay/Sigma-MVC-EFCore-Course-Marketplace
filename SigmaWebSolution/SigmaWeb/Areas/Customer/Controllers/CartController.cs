@@ -15,7 +15,9 @@ namespace SigmaWeb.Areas.Customer.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IEmailSender _emailSender;
-        public ShoppingCartVM shoppingCartVM { get; set; }
+
+		public ISessionWrapper sessionWrapper { get; set; }
+		public ShoppingCartVM shoppingCartVM { get; set; }
         public int OrderTotal { get; set; }
 
         public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender)
@@ -118,5 +120,25 @@ namespace SigmaWeb.Areas.Customer.Controllers
             return View(shoppingCartVM);
 
 		}
+		public interface ISessionWrapper
+		{
+			void Set(string key, int value);
+		}
+		public class SessionWrapper : ISessionWrapper
+		{
+			private readonly ISession _session;
+
+			public SessionWrapper(ISession session)
+			{
+				_session = session;
+			}
+
+			public void Set(string key, int value)
+			{
+				_session.SetInt32(key, value);
+			}
+		}
+
+
 	}
 }
