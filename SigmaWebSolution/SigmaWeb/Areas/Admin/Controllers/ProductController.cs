@@ -109,7 +109,7 @@ namespace SigmaWeb.Areas.Admin.Controllers
 			var productToDelete = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
 			if (productToDelete == null)
 			{
-				return Json(new { sucess = false, message = "Error while deleting" });
+				return Json(new { success = false, message = "Error while deleting" });
 			}
 
 			var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, productToDelete.ImageUrl.TrimStart('\\'));
