@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w1RYUyspGm1miOq5pnhtw/5zZHDfxjWWngwKeqt+I7o=",
+  "Hash": "LyFktyYnqCxA0+grVAJXN1LVK9CA3Wus5qmrujlxzLI=",
   "Source": "SigmaWeb",
   "BasePath": "_content/SigmaWeb",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\CPlusPlusLogo.jpg",
+      "SourceId": "SigmaWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\",
+      "BasePath": "_content/SigmaWeb",
+      "RelativePath": "images/products/CPlusPlusLogo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\CPlusPlusLogo.jpg"
     },
     {
       "Identity": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\imageCSS.jpg",

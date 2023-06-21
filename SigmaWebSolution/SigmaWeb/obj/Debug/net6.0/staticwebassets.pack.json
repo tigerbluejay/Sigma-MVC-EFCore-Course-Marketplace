@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\CPlusPlusLogo.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\CPlusPlusLogo.jpg"
+    },
+    {
       "Id": "C:\\Users\\josem\\source\\Large Projects\\Sigma MVC EF Course Marketplace\\Sigma MVC EF Core Course Marketplace\\SigmaWebSolution\\SigmaWeb\\wwwroot\\images\\products\\imageCSS.jpg",
       "PackagePath": "staticwebassets\\images\\products\\imageCSS.jpg"
     },
