@@ -55,7 +55,9 @@ In addition, there's an Order Controller that has an index view associated with 
 
 ### STAGE FOUR - WRAP UP - UNIT TESTING AND EF CORE FEATURES 
 
-The final stage will explore Unit Testing (adding Unit Testing Projects) and exploring EF Enhacements to the project.
+The final stage explores Unit Testing (adding Unit Testing Projects to the Data, Models, and Web Projects). Several tests were added using NUnit and Moq. Tests are not exhaustive. They evaluate a subset of the available methods, particullary in the Home, Cart and Product Controllers but use Mocking extensively since Controllers methods although lightweight, reference many dependencies. Finally a new EF Core feature makes its way into the application:
+Specifically, the addition of fluent api calls in the OnModelCreating method in the ApplicationDbContext. The fluent api statements are commented, since
+the application already uses data annotations in the Models to achieve its goals, but it is there nontheless to show the alternative implementation.
 
 ## LIMITATIONS
 
