@@ -48,14 +48,16 @@ This stage focuses on the product area of the Admin Controller.
 First I added a dropdown during registration so users chould choose whether they would be regular users or admins.
 This naturally is not so in a real world application, but to display the full features of the app and access all areas users should be at time customers, at time admins.
 The Admin Area has a dropdown where they can register new users and where they can add, edit and remove courses (products) available to customers.
-The Product Contoller (courses) handles product CRUD operations and display has been implemented with the use of DataTables and json managed through js file products (under wwwroot)111111
+The Product Contoller (courses) handles product CRUD operations and display has been implemented with the use of DataTables and json managed through js file products (under wwwroot)
 Create New Course (product) and Edit Existing Course are handled by the Upsert (GET and POST) methods/actions. The delete method deletes the courses that are offered. GetAll() is a method that uses API Calls to Datatables to populate the courses.
 In addition, there's an Order Controller that has an index view associated with it. Just the view is visible there is no implementation because Cart Controller in the Customer Area doesn't process (save to db or register with Stripe or other third party service) the order, so there's nothing to work with here. 
 
 
 ### STAGE FOUR - WRAP UP - UNIT TESTING AND EF CORE FEATURES 
 
-The final stage will explore Unit Testing (adding Unit Testing Projects) and exploring EF Enhacements to the project.
+The final stage explores Unit Testing (adding Unit Testing Projects to the Data, Models, and Web Projects). Several tests were added using NUnit and Moq. Tests are not exhaustive. They evaluate a subset of the available methods, particullary in the Home, Cart and Product Controllers but use Mocking extensively since Controllers methods although lightweight, reference many dependencies. Finally a new EF Core feature makes its way into the application:
+Specifically, the addition of fluent api calls in the OnModelCreating method in the ApplicationDbContext. The fluent api statements are commented, since
+the application already uses data annotations in the Models to achieve its goals, but it is there nontheless to show the alternative implementation.
 
 ## LIMITATIONS
 
