@@ -1,8 +1,3 @@
-C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.csproj.AssemblyReference.cache
-C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.AssemblyInfoInputs.cache
-C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.AssemblyInfo.cs
-C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.csproj.CoreCompileInputs.cache
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\testhost.dll
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\SigmaWeb.deps.json
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\SigmaWeb.runtimeconfig.json
@@ -650,6 +645,11 @@ C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC E
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\Sigma.DataAccess.pdb
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\Sigma.Models.pdb
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\bin\Debug\net6.0\Sigma.Utilities.pdb
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.csproj.AssemblyReference.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.AssemblyInfoInputs.cache
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.AssemblyInfo.cs
+C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.csproj.CoreCompileInputs.cache
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.csproj.CopyComplete
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\SigmaWeb.Tests.dll
 C:\Users\josem\source\Large Projects\Sigma MVC EF Course Marketplace\Sigma MVC EF Core Course Marketplace\SigmaWebSolution\SigmaWeb.Tests\obj\Debug\net6.0\refint\SigmaWeb.Tests.dll
