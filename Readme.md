@@ -1,6 +1,8 @@
 # Sigma-MVC-EFCore-Course-Marketplace
-This is an ongoing project as of June 2023.
-This is a more involved MVC EF Core application built from scratch.
+
+Sigma-MVC-EFCore-Course-Marketplace is a layered, N-Tier course marketplace web application built with ASP.NET Core 6, Entity Framework Core 6, Razor Pages, and SQL Server 2019. It showcases a practical implementation of .NET Scaffolded Identity for user registration and login, custom session-based shopping cart functionality, admin-level course management with DataTables and JSON API calls, and partial support for unit testing using NUnit and Moq.
+
+The project walks through a multi-phase development process, integrating core ASP.NET MVC patterns with repository/unit-of-work architecture, while also touching on advanced topics like Fluent API (commented for reference), View Components, and dependency mocking. It's a robust, real-world style application designed for intermediate to advanced learners of modern .NET Core development.
 
 ## DESCRIPTION 
 
